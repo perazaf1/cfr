@@ -27,7 +27,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }: NavbarProps) => {
               className="font-mono text-xl font-bold text-[#fefee2] flex items-center"
             >
               <img
-                src="src/assets/logo500.png"
+                src="/images/logo500.png"
                 alt="Crazy Family Run Logo"
                 className="h-12 w-auto"
               />
