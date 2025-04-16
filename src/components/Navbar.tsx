@@ -27,14 +27,14 @@ export const Navbar = ({ menuOpen, setMenuOpen }: NavbarProps) => {
               className="font-mono text-xl font-bold text-[#fefee2] flex items-center"
             >
               <img
-                src="/public/images/logo500.png"
+                src="/images/logo500.png"
                 alt="Crazy Family Run Logo"
                 className="h-12 w-auto"
               />
             </a>
             <div
               className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
-              onClick={() => setMenuOpen(!menuOpen)} // ✅ simplifié ici
+              onClick={() => setMenuOpen(!menuOpen)} 
             >
               &#9776;
             </div>
@@ -59,7 +59,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }: NavbarProps) => {
         </div>
       </nav>
 
-      {/* 👇 Mobile menu added here */}
+      
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
     </>
   );
